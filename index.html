@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/534bf90a70.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <section id="themes-section">
+            <button id="theme-change-btn" title="Change Theme" type="button">
+                <div id="theme-thumb" type="button"></div>
+                <span id="theme-text">Light</span>
+            </button>
+        </section>
+        <section id="main-section" class="w-100">
+            <h2 class="center-text font-xl mb-base">Music Player</h2>
+            <div class="cols align-start gap-xl">
+                <!-- left section -->
+                <section id="music-genre">
+                    <div class="rows align-start justify-start gap-md">
+                        <span class="d-inline-block cols gap-md">
+                            Filter by Genre:
+                            <select name="" id="genreOptions" title="genres"></select>
+                        </span>
+                        <span class="d-inline-block cols gap-md">
+                            Search Song:
+                            <input type="text" id="searchSongInput" placeholder="Search by song name">
+                        </span>
+                        <h2 class="font-md">All Songs</h2>
+                        <section id="current-genre-music">
+                            <ul class="rows align-start"></ul>
+                        </section>
+                    </div>
+                </section>
+                <!-- center section -->
+                <section id="music-display">
+                    <div class="rows gap-xl">
+                        <section id="music-info">
+                            <div class="rows align-start gap-md">
+                            </div>
+                        </section>
+                        <audio id="music-player" src="assets/musicFiles/music-take_me_to_church.mp3" controls></audio>
+                        <section id="music-controls">
+                            <div class="rows gap-lg">
+                                <span class="cols gap-lg">
+                                    <button type="button" id="prevSong" class="btn">
+                                        <i class="fa-solid fa-backward font-lg"></i>
+                                    </button>
+                                    <button type="button" id="nextSong" class="btn">
+                                        <i class="fa-solid fa-forward font-lg"></i>
+                                    </button>
+                                </span>
+                                <button class="font-sm" type="button" id="AddToPlayListBtn">
+                                    <div class="rows">
+                                        <span>Add to</span>
+                                        <span>Playlist</span>
+                                    </div>
+                                </button>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+                <!-- right section -->
+                <section id="music-playlist">
+                    <section id="create-playlists" class="self-center cols mb-base gap-md justify-start">
+                        <input class="" type="text" id="createPlaylistName" placeholder="Enter playlist name">
+                        <button id="createPlaylistBtn" type="button">Create Playlist</button>
+                    </section>
+                    <div class="rows align-start">
+                        <section id="currentPlaylistSongs" class="w-100">
+                            <h3>Current Playlist</h3>
+                            <ul id="currentPlaylistSongsList" class="rows gap-md w-100 align-start"></ul>
+                        </section>
+                        <section id="allPlaylists" class="w-100">
+                            <h3>All Playlists</h3>
+                            <ul id="allPlaylistsList" class="rows gap-md w-100 align-start"></ul>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+
+    <script src="main_script.js" type="module"></script>
+    <script src="./assets/scripts/variables_and_functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+{
+  "songs": 
+  [
+      {
+        "id": 1,
+        "name": "Take me to Church",
+        "artist": "Hozier",
+        "img": "https://i.scdn.co/image/ab67616d00001e027a9bf5f82e32d33d4503fe7b",
+        "genre": "rock",
+        "source": "take_me_to_church.mp3"
+      },
+      {
+        "id": 2,
+        "name": "Radioactive",
+        "artist": "Imagine Dragons",
+        "img": "https://i.scdn.co/image/ab67616d00001e02407bd04707c463bbb3410737",
+        "genre": "rock",
+        "source": "radioactive.mp3"
+      },
+      {
+        "id": 3,
+        "name": "Somebody that I used to know",
+        "artist": "Gotye",
+        "img": "https://i.scdn.co/image/ab67616d00001e028ac5768205ad97df3f4f4c0e",
+        "genre": "rock",
+        "source": "somebody_that_i_used_to_know.mp3"
+      },
+      {
+        "id": 4,
+        "name": "Viva La Vida",
+        "artist": "Coldplay",
+        "img": "https://i.scdn.co/image/ab67616d00001e02e21cc1db05580b6f2d2a3b6e",
+        "genre": "rock",
+        "source": "viva_la_vida.mp3"
+      },
+      {
+        "id": 5,
+        "name": "Smooth Criminal",
+        "artist": "Michael Jackson",
+        "img": "https://i.scdn.co/image/ab67616d00001e021bb21d27effb96a1d0fe8d6d",
+        "genre": "pop",
+        "source": "smooth_criminal.mp3"
+      },
+      {
+        "id": 6,
+        "name": "Uptown Funk",
+        "artist": "Mark Ronson",
+        "img": "https://i.scdn.co/image/ab67616d00001e02e419ccba0baa8bd3f3d7abf2",
+        "genre": "pop",
+        "source": "uptown_funk.mp3"
+      },
+      {
+        "id": 7,
+        "name": "Blinding Lights",
+        "artist": "The Weeknd",
+        "img": "https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36",
+        "genre": "pop",
+        "source": "blinding_lights.mp3"
+      },
+      {
+        "id": 8,
+        "name": "Bad Guy",
+        "artist": "Billie Eilish",
+        "img": "https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce",
+        "genre": "pop",
+        "source": "bad_guy.mp3"
+      },
+      {
+        "id": 9,
+        "name": "No Lie",
+        "artist": "Dua Lipa",
+        "img": "https://i.scdn.co/image/ab67616d00001e0213f54ffbe6457c912fd82bcb",
+        "genre": "pop",
+        "source": "no_lie.mp3"
+      },
+      {
+        "id": 10,
+        "name": "Without Me",
+        "artist": "Eminem",
+        "img": "https://i.scdn.co/image/ab67616d00001e026ca5c90113b30c3c43ffb8f4",
+        "genre": "hiphop",
+        "source": "without_me.mp3"
+      },
+      {
+        "id": 11,
+        "name": "See You Again",
+        "artist": "Charlie Puth",
+        "img": "https://i.scdn.co/image/ab67616d00001e024e5df11b17b2727da2b718d8",
+        "genre": "hiphop",
+        "source": "see_you_again.mp3"
+      },
+      {
+        "id": 12,
+        "name": "In Da Club",
+        "artist": "50 Cent",
+        "img": "https://i.scdn.co/image/ab67616d00001e02d843fabb75fef14010e30cae",
+        "genre": "hiphop",
+        "source": "in_da_club.mp3"
+      }
+  ]
+}
